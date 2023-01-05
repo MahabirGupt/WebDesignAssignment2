@@ -1,0 +1,166 @@
+/* Header/Logo Title */
+.ibordercolour {
+    background: #1abc9c;
+    color: white;
+      
+    }
+    .ibordercolour a.active {
+      
+      color:#8B0000;
+      font-size: large;
+      
+      
+    
+    }
+    
+    /* Page Content */
+    /* .content {
+      padding:20px;
+      align-items:center;
+    } */
+  
+    .navbar {
+      list-style: none;
+      text-align: center;
+      list-style-position:inside;
+      margin:0;
+      padding:0;
+      /* width:750px; */
+  list-style:none;
+      
+    }
+    .navbar li{
+      float:center;
+  }
+  .navbar a.active{
+    /* display:block; */
+  text-align:center;
+  /* width:150px; fixed width */
+  /* text-decoration:none;  */
+  }
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  .ibordercolour{
+     
+      border: 2px solid #02070a;
+      border-inline: 1px solid black;
+     }
+  
+  .container {
+          display: flex;
+          align-items: center;
+        }
+  
+  body {
+    background-color:#cea837;
+    
+      
+  }
+  
+  ul.navbar li
+  {
+   text-align: center;
+   margin:center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #searchicon{  
+    
+    color:blue;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    transition: all .1s;
+    transition-delay: .1s;
+    padding-right: 20px;
+    
+  }
+  
+  .center{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+  
+  .gruffalo{
+    padding-left: 335px;
+    padding-top: 30px;
+  }
+  .mastermind{
+    padding-left: 100px;
+  }
+  .planets{
+    padding-left: 100px;
+  }
+  .politics{
+    padding-left: 100px;
+  }
+  .gruffalobook{
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: large;
+  }
+  ul.authordetails a.mystery{
+    list-style: none;
+    padding-left: 335px;
+  }
+  /* ul.mystery{
+    list-style: none;
+    padding-left: 335px;
+  }  */
+  ul.authordetails li{
+  list-style-type: none;
+  list-style: none;  
+  padding-left: 135px;
+  }
+  ul.authordetails{
+    list-style: none;
+    padding-left: 200px;
+  }
+  .mystery{
+    list-style-type: none;
+  }
+  /* ul.authordetails a.mystery{
+    list-style: none;
+    padding-left: 335px;
+  } */
+  .book-cover {
+  
+    padding-left: 300px;
+    padding-top: 10px;
+    font-size: large;
+  
+  }
+  .title{
+    padding-left: 300px;
+    padding-top: 10px;
+  }
+  .author{
+    padding-left: 300px;
+    padding-top: 10px;
+  }
+  .year{
+    padding-left: 300px;
+    padding-top: 10px;
+  }
+  .book-cover-2 {
+  
+    padding-left: 300px;
+    padding-top: 10px;
+    font-size: large;
+  
+  } 

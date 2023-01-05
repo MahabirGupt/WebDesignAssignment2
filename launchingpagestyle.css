@@ -1,0 +1,134 @@
+/* Header/Logo Title */
+.ibordercolour {
+    background: #1abc9c;
+    color: white;
+      
+    }
+    .ibordercolour a.active {
+      
+      color:#8B0000;
+      font-size: large;
+      
+      
+    
+    }
+    
+    /* Page Content */
+    /* .content {
+      padding:20px;
+      align-items:center;
+    } */
+  
+    .navbar {
+      list-style: none;
+      text-align: center;
+      list-style-position:inside;
+      margin:0;
+      padding:0;
+      /* width:750px; */
+  list-style:none;
+      
+    }
+    .navbar li{
+      float:center;
+  }
+  .navbar a.active{
+    /* display:block; */
+  text-align:center;
+  /* width:150px; fixed width */
+  /* text-decoration:none;  */
+  }
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  .ibordercolour{
+     
+      border: 2px solid #02070a;
+      border-inline: 1px solid black;
+     }
+  
+  .container {
+          display: flex;
+          align-items: center;
+        }
+  
+  body {
+    background-color:#cea837;
+    
+      
+  }
+  
+  ul.navbar li
+  {
+   text-align: center;
+   margin:center;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #searchicon{  
+    
+    color:blue;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    transition: all .1s;
+    transition-delay: .1s;
+    padding-right: 20px;
+    
+  }
+  
+  .center{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+  }
+
+figure {
+    margin-top: 0;
+  }
+  .skill-bg {
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-left: 150px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .skills {
+    column-count: 4;
+    column-gap: 0;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+  }
+  
+  .skills>img {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* figure {
+    margin-top: 0;
+  } */
+  
+  @media (max-width: 768px) {
+    .skills {
+      column-count: 2
+    }
+  }
+  
