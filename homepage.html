@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- For responsive website. Always include this line of code -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs. "
+    />
+
+
+    <!-- To add the favicon for website -->
+    <link rel="icon" href="img/favicon.png" />
+
+    <!-- To add the website as favourite for ios and android -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <!-- For android need to create manifest.webmanifest file  -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <!-- Need to paste before our own style sheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Silent Library</title>
     <link rel="stylesheet" href="homepagestyle.css">
     <div class="ibordercolour">
-    <div class="container"> 
+    <div class="header-container"> 
     
-      &nbsp;  &nbsp; &nbsp;<img src="logo.png"  width="100" height="100">  
+      &nbsp;  &nbsp; &nbsp;<img src="img/logo.png" width="100" height="100">  
        <div class="text">
-      <h2 style="color: rgb(64, 0, 255)">  &ensp; Silent Library</h2>
+      <h2 style="color: #0000FF">  &ensp; Silent Library</h2>
       </div>
       
       <!-- Creating a navbar with different tabs -->
@@ -27,52 +49,94 @@
   </ul>
     </div>
     
-    <div id ="searchicon">
-      <img style="color:blue"  src="magnifying-glass.png" alt="search" height="40" width="40">
-        <img style="color:blue" src="login icon.png" alt="login" height="40" width="40">
+    <div class ="searchicon">
+      <img style="color:blue"  src="img/magnifying-glass.png" alt="search" height="40" width="40">
+        <img style="color:blue" src="img/login icon.png" alt="login" height="40" width="40">
       </div>
     </div>
     </div>
     
-</head>
+  </nav>
 <body>
   <div id="banner">
-<img src="booksbanner.jpeg" alt="banner" class="center" width="1200">
+<img src="img/booksbanner.jpeg" alt="banner" class="banner" width="1150" height="300">
   </div>
-  <div>
+  
+  <section class="section-books" id="how">
+    <div class="container grid grid--4-cols grid--center-v">
 
-    <img class="book-cover" src="childrenbook gruffalo.jpg" alt="" height="200" width="200">
+  <div class="book-details">
+    <img class="book-cover" src="img/childrenbook gruffalo.jpg" alt="" height="200" width="200">
     <p class="title">The Gruffalo</p>
+    <p class="title"></p>
+    <p class="title"></p>
+    <p class="title"></p>
+    <p class="title"></p>
+    <p class="title"></p>
+    <p class="title"></p>
     <p class="author"> Julia Donaldson</p>
+    <p class="author"> </p>
+    <p class="author"> </p>
     <p class="year"> 2006</p>
+</div> 
 
+<div class="book-details">
+  <img class="book-cover" src="img/adult books sherlock holmes.jpg" alt="" height="200" width="200">
+  <p class="title">Mastermind: How to Think Like Sherlock Holmes</p>
+  <p class="title"></p>
+  <p class="title"></p>
+
+  <p class="author"> Maria Konnikova</p>
+  <p class="author"> </p>
+  <p class="author"> </p>
+
+  <p class="year"> 2013</p>
 </div>    
-<div>
 
-  <img class="book-cover-2" src="adult books sherlock holmes.jpg" alt="" height="200" width="200">
-  <p class="title-1">The Gruffalo</p>
-  <p class="author-1"> Julia Donaldson</p>
-  <p class="year-1"> 2006</p>
+<div class="book-details">
+  <img class="book-cover" src="img/Science book.jpg" alt="" height="200" width="200">
+  <p class="title">Planets</p>
+  <p class="title"></p>
+  <p class="title"></p>
+  <p class="title"></p>
+  <p class="title"></p>
+  <p class="title"></p>
+  <p class="author"> Rebecca Woodbury PH D</p>
+  <p class="author"> </p>
+  <p class="author"> </p>
 
+  <p class="year"> 2022</p>
 </div>    
-<!-- <div>
-  <div>
-<ul class="books">
-<li>
-  <img src="childrenbook gruffalo.jpg" alt="gruffalo" class="gruffalo" height="200" width="200"> 
-  <img src="adult books sherlock holmes.jpg" alt="adult books" class="mastermind" height="200" width="200"> 
-  <img src="Science book.jpg" alt="adult books" class="planets" height="200" width="200"> 
-  <img src="Politics Book.jpg" alt="adult books" class="politics" height="200" width="200"> 
-</li>
-</ul>
-  </div>
-  <div>
-    <ul class="authordetails">
-       <li class="gruffalobook">The Gruffalo</li>
-      <li class="mystery">Mastermind: How to Think <br> Like Sherlock Holmes</li>
 
-    </ul>
-  </div>
-</div> -->
+<div class="book-details">
+  <img class="book-cover" src="img/Politics Book.jpg" alt="" height="200" width="200">
+  <p class="title">Why Nations Fail: The Origins of Power, Prosperity, and Poverty</p>
+  <p class="title"></p>
+  
+  <p class="author"> Daron Acemoglu,</p>
+  <p class="author"> James A Robinson</p>
+  <!-- <p class="author"> </p> -->
+  <p class="year"> 2013</p>
+</div>    
+</div> 
+  </section>
 </body>
+<footer class="footer">
+  <!-- <div class="footer-bordercolour"> -->
+    <nav class="footer-bordercolour" role="navigation" aria-label="main menu">
+
+      <ul class="footer-navbar">
+          <li class="footer-list">
+          <a class="footer-active" href="sitemap.html">Sitemap</a> &nbsp;&nbsp;
+          <a class="footer-active" href="privacy-policy.html">Privacy Policy</a>&nbsp;&nbsp;
+        </li>
+      </ul>
+      <p class="copyright">
+        Copyright &copy; <span class="year">2023</span> by Silent Library
+        All rights reserved.
+      </p>
+        
+    </nav>
+  <!-- </div> -->
+</footer>
 </html>
